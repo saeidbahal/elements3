@@ -1,72 +1,69 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <title>Multi-Language Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <script>
-        const translations = {
-            en: {
-                title: "Welcome to My Website",
-                intro: "This is a multi-language website. Choose your preferred language below.",
-                contact: "Contact Me",
-                address: "1234 Somewhere Road, Nashville, TN 00000-0000",
-                phone: "Phone",
-                email: "Email",
-                changeLang: "Change Language"
-            },
-            fa: {
-                title: "به وبسایت من خوش آمدید",
-                intro: "این یک وبسایت چندزبانه است. زبان مورد نظر خود را انتخاب کنید.",
-                contact: "تماس با من",
-                address: "خیابان شماره 1234، نشویل، TN 00000-0000",
-                phone: "تلفن",
-                email: "ایمیل",
-                changeLang: "تغییر زبان"
-            },
-            de: {
-                title: "Willkommen auf meiner Webseite",
-                intro: "Dies ist eine mehrsprachige Webseite. Wählen Sie unten Ihre bevorzugte Sprache aus.",
-                contact: "Kontaktieren Sie mich",
-                address: "1234 Irgendwo Straße, Nashville, TN 00000-0000",
-                phone: "Telefon",
-                email: "E-Mail",
-                changeLang: "Sprache ändern"
-            }
-        };
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        function changeLanguage(lang) {
-            document.getElementById("title").textContent = translations[lang].title;
-            document.getElementById("intro").textContent = translations[lang].intro;
-            document.getElementById("contact").textContent = translations[lang].contact;
-            document.getElementById("address").textContent = translations[lang].address;
-            document.getElementById("phone-label").textContent = translations[lang].phone + ":";
-            document.getElementById("email-label").textContent = translations[lang].email + ":";
-            document.getElementById("changeLang").textContent = translations[lang].changeLang;
-        }
-    </script>
-</head>
-<body>
-    <header>
-        <h1 id="title">Welcome to My Website</h1>
-    </header>
-    <main>
-        <p id="intro">This is a multi-language website. Choose your preferred language below.</p>
-        <section>
-            <h2 id="contact">Contact Me</h2>
-            <p id="address">1234 Somewhere Road, Nashville, TN 00000-0000</p>
-            <p><strong id="phone-label">Phone:</strong> (000) 000-0000</p>
-            <p><strong id="email-label">Email:</strong> saeid.b652000@yahoo.com</p>
-        </section>
-        <div>
-            <label for="language-selector" id="changeLang">Change Language:</label>
-            <select id="language-selector" onchange="changeLanguage(this.value)">
-                <option value="en">English</option>
-                <option value="fa">فارسی</option>
-                <option value="de">Deutsch</option>
-            </select>
-        </div>
-    </main>
-</body>
-</html>
+		<div id="wrapper" class="fade-in">
+
+				<div id="intro">
+						<h1>This is<br />
+						Massively</h1>
+						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header>
+
+				<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">This is Massively</a></li>
+							<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<div id="main">
+
+						<article class="post featured">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h2><a href="#">And this is a<br />
+									massive headline</a></h2>
+									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p>
+								</header>
+								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Full Story</a></li>
+								</ul>
+							</article>
+
+						<section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full
