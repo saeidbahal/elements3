@@ -13,8 +13,8 @@ Credits:
 		Font Awesome (fontawesome.io)
 
 	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+		Scrollex (https://github.com/saeidbahal)
+		Responsive Tools (https://github.com/saeidbahal/elements3)
 
 If you have any questions or need support, feel free to contact Saeid Bahal.
